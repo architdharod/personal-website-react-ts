@@ -1,17 +1,23 @@
-export default function SkillSection() {
+interface Props {
+    title: string,
+    description:string,
+    skills:{
+        name:string,
+        logo:string
+    }[]
+}
+
+export default function SkillSection({title, description, skills}: Props) {
 
     const placeholder = "-: placeholder :-"
 
     return (
         <div id="skills">
-            <h2>Tools and Technology</h2>
+            <h2>{title}</h2>
             <div className="skill">
                 {placeholder}
             </div>
-            <p>Also write a bit about how I took initiative and learnt these skills on my own, 
-                and managed Projects on my own. 
-                Show How i am driven to learn new things
-            </p>
+            <p>{description}</p>
         </div>
     )
 }

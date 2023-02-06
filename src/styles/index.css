@@ -1,2 +1,4 @@
 @import "./main.css";
-@import "./neo-brutalism.css";
+@import "./neo-brutalism/neo-brutalism.css";
+@import "./neo-brutalism/brutalism-light.css";
+@import "./neo-brutalism/brutalism-dark.css";

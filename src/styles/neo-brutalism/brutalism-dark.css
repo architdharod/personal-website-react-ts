@@ -1,0 +1,31 @@
+/*  dark theme for neo-brutalism   */
+
+.brutalism-dark {
+    --color-1: #1d1d1d;
+    --color-2: #555555;
+    --color-3: #071934;
+    --color-4: #380505;
+    --shadow-offset: 3px;
+    color:rgb(243, 243, 243)
+}
+
+.brutalism-dark button {
+    border: 2px solid rgb(194, 194, 194);
+    background-color: rgb(123, 123, 123);
+}
+
+.brutalism-dark button:hover {
+    box-shadow: var(--shadow-offset) var(--shadow-offset) rgb(194,194,194);
+}
+
+.brutalism-dark nav, main{
+    background-color:var(--color-1);
+}
+
+.brutalism-dark #skills {
+    background-color: var(--color-2);
+}
+
+.brutalism-dark footer {
+    background-color: var(--color-3);
+}

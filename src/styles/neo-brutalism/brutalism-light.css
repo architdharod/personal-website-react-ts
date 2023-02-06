@@ -1,37 +1,30 @@
-.brutal-l, .brutal-d {
-    font-family:Arial, Helvetica, sans-serif;
-    --shadow-offset: 3px;
-}
-
 /*  light theme for neo-brutalism   */
-.brutal-l {
+
+.brutalism-light {
     --color-1: #ffd84c;
     --color-2: #78CD76;
     --color-3: #3F8CFF;
     --color-4: #FF7373;
+    --shadow-offset: 3px;
 }
 
-.brutal-l > button {
-    border-radius: 10px;
+.brutalism-light button {
     border: 2px solid black;
     background-color: white;
 }
 
-.brutal-l > button:hover {
+.brutalism-light button:hover {
     box-shadow: var(--shadow-offset) var(--shadow-offset) black;
 }
 
-.brutal-l nav, main{
+.brutalism-light nav, main{
     background-color:var(--color-1);
 }
 
-.brutal-l #skills {
+.brutalism-light #skills {
     background-color: var(--color-2);
 }
 
-.brutal-l footer {
+.brutalism-light footer {
     background-color: var(--color-3);
 }
-
-
-/*  dark theme for neo-brutalism   */

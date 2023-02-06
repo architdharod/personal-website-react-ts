@@ -1,0 +1,17 @@
+/*Basic Responsive structure for neo-brutalist theme*/
+
+/*
+Following aspects to be defined here:
+    -Fonts
+    -Font sizes
+    -Animations
+*/
+
+.brutalism {
+    font-family:Arial, Helvetica, sans-serif;
+    --shadow-offset: 3px;
+}
+
+.brutalism nav button {
+    border-radius: 10px;
+}
