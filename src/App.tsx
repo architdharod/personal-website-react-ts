@@ -14,7 +14,7 @@ function App(){
     lightMode:true
   })
 
-  const [textLanguage, setTextLanguage] = useState<ContentStructure>(
+  const [currentTextLanguage, setTextLanguage] = useState<ContentStructure>(
     {...websiteContent.EN}
   )
 
@@ -55,15 +55,15 @@ function App(){
   return (
     <div className={`${appSetting.style} ${appSetting.style}-${appSetting.lightMode ? "light" : "dark" }`}>
       <Navbar 
-        {...textLanguage.Navbar}
+        {...currentTextLanguage.Navbar}
         handleClickOnLang={handleClickOnLang}
         handleClickOnTheme={handleClickOnTheme}
       />
       <MainSection 
-        {...textLanguage.MainSection}
+        {...currentTextLanguage.MainSection}
       />
       <SkillSection 
-        {...textLanguage.SkillSection}
+        {...currentTextLanguage.SkillSection}
       />
       <ProjectSection />
       <Footer />

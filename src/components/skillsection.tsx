@@ -9,13 +9,20 @@ interface Props {
 
 export default function SkillSection({title, description, skills}: Props) {
 
-    const placeholder = "-: placeholder :-"
+    const skillTab = skills.map((skills) => {
+        return (
+            <div className="skill-card">
+                <img src={`${skills.logo}`}></img>
+                <p>{skills.name}</p>
+            </div>
+        )
+    })
 
     return (
         <div id="skills">
             <h2>{title}</h2>
             <div className="skill">
-                {placeholder}
+                {skillTab}
             </div>
             <p>{description}</p>
         </div>
