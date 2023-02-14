@@ -20,8 +20,30 @@ export const websiteContent : AllContent = {
                 {
                     name:"React",
                     logo:"./vite.svg"
+                },
+                {
+                    name:"HTML",
+                    logo:"./vite.svg"
                 }
             ]
+        },
+        ProjectSection:{
+            title: "Projects",
+            project:[
+                {
+                    title: "Project 1",
+                    thumbnail: "link to thumbnail",
+                    description:"I made this really cool project about xyz. ",
+                    skills:"TypeScript, React"
+                }
+            ],
+            description:"Drop me a mail and we can set up some time to chat!",
+            email: "hire-me@dharod.de"
+        },
+        FooterSection:{
+            cvButtonText:"Get a free copy of my CV!",
+            description:"Designed and coded by me (with a little help from my friends)",
+            inspiration:"Heavily inspired from gumroad.com"
         }
     },
     DE:{
@@ -43,8 +65,30 @@ export const websiteContent : AllContent = {
                 {
                     name:"React",
                     logo:"./vite.svg"
+                },
+                {
+                    name:"HTML",
+                    logo:"./vite.svg"
                 }
             ]
+        },
+        ProjectSection:{
+            title: "Projects",
+            project:[
+                {
+                    title: "Project 1",
+                    thumbnail: "link to thumbnail",
+                    description:"I made this really cool project about xyz. ",
+                    skills:"TypeScript, React"
+                }
+            ],
+        description:"Drop me a mail and we can set up some time to chat!",
+        email: "hire-me@dharod.de"
+        },
+        FooterSection:{
+            cvButtonText:"kostenlose Kopie meines Lebenslaufs!",
+            description:"Von mir eigenhändig gestaltet und kodiert (mit einem Hauch von Unterstützung durch meine Freunde)",
+            inspiration:"Heavily inspired from gumroad.com"
         }
     }
 }

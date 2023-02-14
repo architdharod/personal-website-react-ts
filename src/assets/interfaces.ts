@@ -13,6 +13,22 @@ export interface ContentStructure {
             name:string,
             logo:string
         }[]
+    },
+    ProjectSection: {
+        title:string,
+        project: {
+            title:string,
+            thumbnail: string,
+            description:string,
+            skills: string
+        }[],
+        description: string,
+        email: string
+    },
+    FooterSection: {
+        cvButtonText:string,
+        description:string,
+        inspiration: string
     }
 }
 
