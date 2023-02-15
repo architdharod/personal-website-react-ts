@@ -19,12 +19,12 @@ export default function SkillSection({title, description, skills}: Props) {
     })
 
     return (
-        <div id="skills">
+        <section id="skills">
             <h2>{title}</h2>
             <div className="skill">
                 {skillTab}
             </div>
             <p>{description}</p>
-        </div>
+        </section>
     )
 }

@@ -17,7 +17,7 @@
     box-shadow: var(--shadow-offset) var(--shadow-offset) black;
 }
 
-.brutalism-light nav, main{
+.brutalism-light nav, #main{
     background-color:var(--color-1);
 }
 

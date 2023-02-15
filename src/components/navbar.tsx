@@ -7,7 +7,7 @@ interface Props {
 function Navbar({name, handleClickOnLang, handleClickOnTheme}: Props) {
     return (
         <nav>
-            <div>{name}</div>
+            <div id="name">{name}</div>
 
             <div className="toggle-buttons">
                 <button id="mode" onClick={handleClickOnTheme} >Mode</button>

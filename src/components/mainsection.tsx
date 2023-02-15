@@ -6,10 +6,10 @@ interface Props {
 export default function MainSection({title, description}: Props){
 
     return (
-        <main>
+        <section id="main">
             <h1>{title}</h1>
             <img id="profile-picture" src={"./portrait-picture.jpg"}/>
             <p>{description}</p>
-        </main>
+        </section>
     )
 }
