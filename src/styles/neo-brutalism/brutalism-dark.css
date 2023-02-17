@@ -5,6 +5,7 @@
     --color-2: #555555;
     --color-3: #071934;
     --color-4: #380505;
+    --icon-color: white;
     --shadow-offset: 3px;
     color:rgb(243, 243, 243)
 }
@@ -49,4 +50,8 @@
 /* Footer sectio */
 .brutalism-dark footer {
     background-color: var(--color-3);
+}
+
+.brutalism-dark .social-media a i {
+    color: var(--icon-color);
 }

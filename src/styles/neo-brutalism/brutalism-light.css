@@ -4,7 +4,9 @@
     --color-2: #78CD76;
     --color-3: #3F8CFF;
     --color-4: #FF7373;
-    --shadow-offset: 3px;
+    --icon-color: black;
+    --border-color: black;
+    --background-color: white;
 }
 
 /* Navigation */
@@ -13,8 +15,8 @@
 }
 
 .brutalism-light button {
-    border: 2px solid black;
-    background-color: white;
+    border: 2px solid var(--border-color);
+    background-color: var(--background-color);
 }
 
 .brutalism-light button:hover {
@@ -23,7 +25,7 @@
 
 /* Main Section */
 .brutalism-light #profile-picture {
-    border: 2px solid black;
+    border: 2px solid var(--border-color);
 }
 
 /* Skills Section */
@@ -32,8 +34,8 @@
 }
 
 .brutalism-light .skill-card {
-    background-color: white;
-    border: 2px solid black;
+    background-color: var(--background-color);
+    border: 2px solid var(--border-color);
 }
 
 /* Footer sectio */
@@ -42,5 +44,9 @@
 }
 
 .brutalism-light .cv-button {
-    background-color: #FF7373;
+    background-color: var(--color-4);
+}
+
+.brutalism-light .social-media a i {
+    color: var(--icon-color);
 }

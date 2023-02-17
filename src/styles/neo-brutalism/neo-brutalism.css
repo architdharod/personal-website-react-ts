@@ -9,6 +9,7 @@ Following aspects to be defined here:
 .brutalism {
     font-family:Arial, Helvetica, sans-serif;
     --shadow-offset: 3px;
+    --border-thickness: 2px;
 }
 
 .brutalism nav button {
