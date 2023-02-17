@@ -6,8 +6,7 @@
 
 /*TODO:responsive  */
 
-
-/*Navigation base css*/
+/*  Navigation base css  */
 nav {
     display: flex;
     justify-content: space-between;
@@ -20,13 +19,19 @@ nav {
 
 h1 {
     font-size: clamp(2rem,4vw,4rem);
+    margin-inline: auto;
     text-align: center;
 }
 
 h2 {
     /* font-size: 1.8rem; */
     font-size: clamp(1.5rem, 3vw, 3rem);
+    margin-inline:auto;
     text-align: center;
+}
+
+p {
+    font-size: clamp(1rem, 2.5vw ,1.8rem)
 }
 
 nav > div {
@@ -44,58 +49,86 @@ nav > div {
     font-weight: 500;
 }
 
-/*Sections eg: Main section, skills section etc. */
+/*  Sections eg: Main section, skills section etc. */
 section {
     padding: 1em 1em;
 }
 
 #main *, #skills *, #project * {
-    max-width: 74.375em;
-    margin: auto;
+    max-width: 74.375rem;
 }
 
-/*Main section base css*/
+#main p, #skills p, #skills .skill,  #project p {
+    margin-inline: auto;
+}
+
+/*  Main section base css  */
 #main {
     padding-top: 0em;
 }
 
 #profile-picture {
     width: min(375px, 80%);
-    margin: auto;
-    padding: 1em 0;
+    margin-inline: auto;
+    margin: 1em auto;
 }
 
-
-
-
-
-
-
-
-
-
-/*TODO: shift this css to its respective file.*/
+/*  Skills section base css  */
 .skill {
-    padding-bottom: 2em;
-    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.skill-card > * {
-    max-height: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .skill-card {
-    height: 35px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    border: 2px solid black;
-    background-color: white;
-    border-radius: 10px;
+    height: clamp(2.7em, 3.5vw , 3em);
+    padding-left: clamp(0.5em, 2vw, 0.5em);
+    padding-right: clamp(0.5em, 2vw, 0.5em);
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    font-size: clamp(1rem, 1.2vw, 1.5rem);
 }
+
+.skill-card img {
+    height: auto;
+    max-height: 100%;
+    padding: 0.5em 0.3em 0.5em 0;
+}
+
+/*   Projects section base css */
+.project-card{
+    width: min(90%, 80em);
+    margin-inline: auto;
+    margin-top: 1em;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    border-bottom: 2px solid black;;
+}
+
+.project-card h3 {
+    padding: 1em;
+}
+
+.project-card p, .project-card h4 {
+    padding: 0 1rem 1rem 1rem;
+}
+
+#project .description {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Footer Section Base CSS */

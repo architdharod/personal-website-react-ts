@@ -65,7 +65,9 @@ function App(){
       <SkillSection 
         {...currentTextLanguage.SkillSection}
       />
-      <ProjectSection />
+      <ProjectSection 
+      {...currentTextLanguage.ProjectSection}
+      />
       <Footer />
     </div>
     )

@@ -1,11 +1,15 @@
 /*  light theme for neo-brutalism   */
-
 .brutalism-light {
     --color-1: #ffd84c;
     --color-2: #78CD76;
     --color-3: #3F8CFF;
     --color-4: #FF7373;
     --shadow-offset: 3px;
+}
+
+/* Navigation */
+.brutalism-light nav, #main{
+    background-color:var(--color-1);
 }
 
 .brutalism-light button {
@@ -17,14 +21,22 @@
     box-shadow: var(--shadow-offset) var(--shadow-offset) black;
 }
 
-.brutalism-light nav, #main{
-    background-color:var(--color-1);
+/* Main Section */
+.brutalism-light #profile-picture {
+    border: 2px solid black;
 }
 
+/* Skills Section */
 .brutalism-light #skills {
     background-color: var(--color-2);
 }
 
+.brutalism-light .skill-card {
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* Footer sectio */
 .brutalism-light footer {
     background-color: var(--color-3);
 }

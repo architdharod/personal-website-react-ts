@@ -10,6 +10,7 @@ export interface ContentStructure {
         title:string,
         description:string,
         skills:{
+            key:number,
             name:string,
             logo:string
         }[]
@@ -17,6 +18,7 @@ export interface ContentStructure {
     ProjectSection: {
         title:string,
         project: {
+            key: number,
             title:string,
             thumbnail: string,
             description:string,

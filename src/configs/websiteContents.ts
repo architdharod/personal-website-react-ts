@@ -1,5 +1,63 @@
 import { AllContent } from "../assets/interfaces";
 
+const commonSkills = [
+{
+    key: 1,
+    name:"Typescript",
+    logo:"https://skillicons.dev/icons?i=typescript"
+},
+{
+    key: 2,
+    name:"React",
+    logo:"https://skillicons.dev/icons?i=react"
+},
+{
+    key: 3,
+    name:"Node.JS",
+    logo:"https://skillicons.dev/icons?i=nodejs"
+},
+{
+    key: 4,
+    name:"CSS3",
+    logo:"https://skillicons.dev/icons?i=css"
+},
+{
+    key: 5,
+    name:"HTML",
+    logo:"https://skillicons.dev/icons?i=html"
+},
+{
+    key: 6,
+    name:"MySQL",
+    logo:"https://skillicons.dev/icons?i=mysql"
+},
+{
+    key: 7,
+    name:"Docker",
+    logo:"https://skillicons.dev/icons?i=docker"
+},
+{
+    key: 8,
+    name:"Figma",
+    logo:"https://skillicons.dev/icons?i=figma"
+},
+{
+    key: 9,
+    name:"GitHub",
+    logo:"https://skillicons.dev/icons?i=github"
+},
+{
+    key: 10,
+    name:"Vite",
+    logo:"https://skillicons.dev/icons?i=vite"
+},
+{
+    key:11,
+    name:"Webpack",
+    logo:"https://skillicons.dev/icons?i=webpack"
+}
+]
+
 export const websiteContent : AllContent = {
     EN:{
         Navbar:{
@@ -12,27 +70,29 @@ export const websiteContent : AllContent = {
         SkillSection:{
             title:"Tools and Technology",
             description: "Also write a bit about how I took initiative and learnt these skills on my own, and managed Projects on my own. Show How i am driven to learn new things.",
-            skills:[
-                {
-                    name:"Typescript",
-                    logo:"./vite.svg"
-                },
-                {
-                    name:"React",
-                    logo:"./vite.svg"
-                },
-                {
-                    name:"HTML",
-                    logo:"./vite.svg"
-                }
-            ]
+            skills: commonSkills
         },
         ProjectSection:{
             title: "Projects",
             project:[
                 {
+                    key: 1,
                     title: "Project 1",
-                    thumbnail: "link to thumbnail",
+                    thumbnail: "https://source.unsplash.com/700x400/?telephone",
+                    description:"I made this really cool project about xyz. this particular project has a lot of text. I am adding some more text to make it overflow and check that the size remains same ",
+                    skills:"TypeScript, React"
+                },
+                {
+                    key: 2,
+                    title: "Project 2",
+                    thumbnail: "https://source.unsplash.com/700x400/?programming",
+                    description:"I made this really cool project about xyz. ",
+                    skills:"TypeScript, React"
+                },
+                {
+                    key: 3,
+                    title: "Project 3",
+                    thumbnail: "https://source.unsplash.com/700x400/?website",
                     description:"I made this really cool project about xyz. ",
                     skills:"TypeScript, React"
                 }
@@ -57,27 +117,29 @@ export const websiteContent : AllContent = {
         SkillSection:{
             title:"Werkzeuge und Technologie",
             description: "Also write a bit about how I took initiative and learnt these skills on my own, and managed Projects on my own. Show How i am driven to learn new things.",
-            skills:[
-                {
-                    name:"Typescript",
-                    logo:"./vite.svg"
-                },
-                {
-                    name:"React",
-                    logo:"./vite.svg"
-                },
-                {
-                    name:"HTML",
-                    logo:"./vite.svg"
-                }
-            ]
+            skills:commonSkills
         },
         ProjectSection:{
             title: "Projects",
             project:[
                 {
-                    title: "Project 1",
-                    thumbnail: "link to thumbnail",
+                    key: 1,
+                    title: "Project 1 (DE)",
+                    thumbnail: "https://source.unsplash.com/700x400/?telephone",
+                    description:"I made this really cool project about xyz. ",
+                    skills:"TypeScript, React"
+                },
+                {
+                    key: 2,
+                    title: "Project 2 (DE)",
+                    thumbnail: "https://source.unsplash.com/700x400/?programming",
+                    description:"I made this really cool project about xyz. ",
+                    skills:"TypeScript, React"
+                },
+                {
+                    key: 3,
+                    title: "Project 3 (DE)",
+                    thumbnail: "https://source.unsplash.com/700x400/?website",
                     description:"I made this really cool project about xyz. ",
                     skills:"TypeScript, React"
                 }

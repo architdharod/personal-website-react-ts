@@ -2,6 +2,7 @@ interface Props {
     title: string,
     description:string,
     skills:{
+        key:number,
         name:string,
         logo:string
     }[]
@@ -11,9 +12,9 @@ export default function SkillSection({title, description, skills}: Props) {
 
     const skillTab = skills.map((skills) => {
         return (
-            <div className="skill-card">
+            <div className="skill-card" key={skills.key}>
                 <img src={`${skills.logo}`}></img>
-                <p>{skills.name}</p>
+                <div>{skills.name}</div>
             </div>
         )
     })

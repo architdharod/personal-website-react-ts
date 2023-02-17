@@ -2,9 +2,8 @@
 
 /*
 Following aspects to be defined here:
-    -Fonts
-    -Font sizes
     -Animations
+    -shapes of elements
 */
 
 .brutalism {
@@ -13,5 +12,13 @@ Following aspects to be defined here:
 }
 
 .brutalism nav button {
+    border-radius: 10px;
+}
+
+.brutalism #profile-picture {
+    border-radius: 59px;
+}
+
+.brutalism .skill-card{
     border-radius: 10px;
 }

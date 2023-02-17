@@ -18,14 +18,35 @@
     box-shadow: var(--shadow-offset) var(--shadow-offset) rgb(194,194,194);
 }
 
-.brutalism-dark nav, main{
+/* Navigation */
+.brutalism-dark nav, #main{
     background-color:var(--color-1);
 }
 
+.brutalism-dark button {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.brutalism-dark button:hover {
+    box-shadow: var(--shadow-offset) var(--shadow-offset) black;
+}
+
+/* Main Section */
+.brutalism-dark #profile-picture {
+    border: 2px solid white;
+}
+
+/* Skills Section */
 .brutalism-dark #skills {
     background-color: var(--color-2);
 }
 
+.brutalism-dark .skill-card {
+    background-color: rgb(131, 131, 131);
+}
+
+/* Footer sectio */
 .brutalism-dark footer {
     background-color: var(--color-3);
 }
