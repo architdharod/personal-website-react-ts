@@ -54,7 +54,7 @@ section {
     padding: 1em 1em;
 }
 
-#main *, #skills *, #project * {
+#main *, #skills *, #project * , #footer *{
     max-width: 74.375rem;
 }
 
@@ -115,7 +115,6 @@ section {
 
 .project-card img {
     width: 100%;
-    border-bottom: 2px solid black;;
 }
 
 .project-card h3 {
@@ -129,6 +128,44 @@ section {
 #project .description {
     margin-top: 1em;
     margin-bottom: 1em;
+    margin-inline:auto;
+}
+
+#project .email {
+    margin-inline: auto;
 }
 
 /* Footer Section Base CSS */
+footer button {
+    font-size: clamp(1.2rem, 4vw,2.5rem);
+    padding: 0.5em;
+}
+
+.cv-button {
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 0.8em;
+}
+
+.social-media {
+    margin-inline: auto;
+    text-align: center;
+}
+
+.social-media a {
+    padding: 0.5em;
+}
+
+footer * {
+    padding-bottom: 0.5em;
+}
+
+footer {
+    padding-top: clamp(1em,3vw,1.9em);
+    padding-bottom: clamp(1em,3vw,1.9em);
+}
+
+footer h3, footer h4 {
+    margin-inline: auto;
+    text-align: center;
+}

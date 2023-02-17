@@ -40,3 +40,7 @@
 .brutalism-light footer {
     background-color: var(--color-3);
 }
+
+.brutalism-light .cv-button {
+    background-color: #FF7373;
+}

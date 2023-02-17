@@ -22,3 +22,11 @@ Following aspects to be defined here:
 .brutalism .skill-card{
     border-radius: 10px;
 }
+
+.brutalism .project-card img {
+    border-bottom: 2px solid black;;
+}
+
+.brutalism .cv-button {
+    border-radius: 0.5em;
+}

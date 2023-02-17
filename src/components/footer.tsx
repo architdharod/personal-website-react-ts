@@ -2,7 +2,7 @@
 export default function Footer(){
     return (
         <footer>
-            <button>Get a free copy of my CV!</button>
+            <button className="cv-button">Get a free copy of my CV!</button>
             <div className="social-media">
                 <a>GitHub</a>
                 <a>Docker Hub</a>
