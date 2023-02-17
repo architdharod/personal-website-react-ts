@@ -18,7 +18,7 @@ nav {
 }
 
 h1 {
-    font-size: clamp(2rem,4vw,4rem);
+    font-size: clamp(2rem,4.5vw,3.8rem);
     margin-inline: auto;
     text-align: center;
 }
@@ -50,12 +50,14 @@ nav > div {
 }
 
 /*  Sections eg: Main section, skills section etc. */
-section {
-    padding: 1em 1em;
+section, footer {
+    padding: clamp(1em,5vw,4em) 1em;
 }
 
-#main *, #skills *, #project * , #footer *{
+#main .container, #skills .container, #project .container , footer .container{
     max-width: 74.375rem;
+    margin-inline:auto;
+    /* border: 2px solid black; */
 }
 
 #main p, #skills p, #skills .skill,  #project p {
@@ -68,7 +70,7 @@ section {
 }
 
 #profile-picture {
-    width: min(375px, 80%);
+    width: min(375px, 85%);
     margin-inline: auto;
     margin: 1em auto;
 }
@@ -104,9 +106,9 @@ section {
 
 /*   Projects section base css */
 .project-card{
-    width: min(90%, 80em);
+    width: min(100%, 80em);
     margin-inline: auto;
-    margin-top: 1em;
+    margin-top: 2em;
 
     border: 2px solid black;
     border-radius: 15px;
@@ -175,4 +177,9 @@ footer {
 footer h3, footer h4 {
     margin-inline: auto;
     text-align: center;
+}
+
+/* Responsive Media queries */
+
+@media (min-width: 750px) {
 }

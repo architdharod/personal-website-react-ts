@@ -26,10 +26,12 @@ export default function ProjectSection({title, project, description, email}: Pro
 
     return (
         <section id="project">
+            <div className="container">
             <h2>{title}</h2>
-            {projectCard}
-            <div className="description">{description}</div>
-            <div className="email">{email}</div>
+                {projectCard}
+                <div className="description">{description}</div>
+                <div className="email">{email}</div>
+            </div>
         </section>
     )
 }

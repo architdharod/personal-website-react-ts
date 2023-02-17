@@ -21,11 +21,13 @@ export default function SkillSection({title, description, skills}: Props) {
 
     return (
         <section id="skills">
-            <h2>{title}</h2>
-            <div className="skill">
-                {skillTab}
+            <div className="container">
+                <h2>{title}</h2>
+                <div className="skill">
+                    {skillTab}
+                </div>
+                <p>{description}</p>
             </div>
-            <p>{description}</p>
         </section>
     )
 }

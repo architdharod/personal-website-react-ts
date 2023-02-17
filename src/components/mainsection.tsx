@@ -7,9 +7,11 @@ export default function MainSection({title, description}: Props){
 
     return (
         <section id="main">
-            <h1>{title}</h1>
-            <img id="profile-picture" src={"./portrait-picture.jpg"}/>
-            <p>{description}</p>
+            <div className="container">
+                <h1>{title}</h1>
+                <img id="profile-picture" src={"./portrait-picture.jpg"}/>
+                <p>{description}</p>
+            </div>
         </section>
     )
 }
