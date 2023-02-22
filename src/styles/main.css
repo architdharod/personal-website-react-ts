@@ -4,8 +4,6 @@
     background: rgba(0, 147, 0, 0.09) !important;
 }  */
 
-/*TODO:responsive  */
-
 /*  Navigation base css  */
 nav {
     display: flex;
@@ -196,6 +194,9 @@ footer h3, footer h4 {
     text-align: center;
 }
 
+
+
+
 /* Responsive Media queries */
 
 @media (min-width: 750px) {
@@ -245,6 +246,10 @@ footer h3, footer h4 {
     /* Projects section */
     #project .container {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .project-card {
+        width: 100%;
     }
 
     #project .container h2,

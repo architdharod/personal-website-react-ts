@@ -95,6 +95,13 @@ export const websiteContent : AllContent = {
                     thumbnail: "https://source.unsplash.com/700x400/?website",
                     description:"I made this really cool project about xyz. ",
                     skills:"TypeScript, React"
+                },
+                {
+                    key: 4,
+                    title: "Project 4",
+                    thumbnail: "https://source.unsplash.com/700x400/?elephant",
+                    description:"I made this really cool project about xyz. this particular project has a lot of text. I am adding some more text to make it overflow and check that the size remains same ",
+                    skills:"TypeScript, React, HTML, CSS3, Flex-Box, Grid"
                 }
             ],
             description:"Drop me a mail and we can set up some time to chat!",
@@ -142,6 +149,13 @@ export const websiteContent : AllContent = {
                     thumbnail: "https://source.unsplash.com/700x400/?website",
                     description:"I made this really cool project about xyz. ",
                     skills:"TypeScript, React"
+                },
+                {
+                    key: 4,
+                    title: "Project 4",
+                    thumbnail: "https://source.unsplash.com/700x400/?elephant",
+                    description:"I made this really cool project about xyz. this particular project has a lot of text. I am adding some more text to make it overflow and check that the size remains same ",
+                    skills:"TypeScript, React, HTML, CSS3, Flex-Box, Grid"
                 }
             ],
         description:"Drop me a mail and we can set up some time to chat!",
