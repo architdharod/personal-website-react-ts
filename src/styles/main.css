@@ -117,10 +117,15 @@ section, footer {
 }
 
 /*   Projects section base css */
+#project .container {
+    display: grid;
+    justify-items: center;
+    gap: 2em;
+}
+
 .project-card{
     width: min(90%, 80em);
     margin-inline: auto;
-    margin-top: 2em;
 
     border: 2px solid black;
     border-radius: 15px;
@@ -237,6 +242,15 @@ footer h3, footer h4 {
         grid-row: 2;
     }
 
+    /* Projects section */
+    #project .container {
+        grid-template-columns: 1fr 1fr;
+    }
 
+    #project .container h2,
+    #project .container .description,
+    #project .container .email {
+        grid-column: 1/3;
+    }
 
 }
