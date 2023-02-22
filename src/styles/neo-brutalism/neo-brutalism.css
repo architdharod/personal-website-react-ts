@@ -9,7 +9,7 @@ Following aspects to be defined here:
 .brutalism {
     font-family:Arial, Helvetica, sans-serif;
     --shadow-offset: 3px;
-    --border-thickness: 2px;
+    --border-thickness: 3px;
 }
 
 .brutalism nav button {
@@ -25,7 +25,7 @@ Following aspects to be defined here:
 }
 
 .brutalism .project-card img {
-    border-bottom: 2px solid black;;
+    border-bottom: 3px solid black;;
 }
 
 .brutalism .cv-button {
