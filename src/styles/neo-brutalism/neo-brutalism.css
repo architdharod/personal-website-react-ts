@@ -6,8 +6,9 @@ Following aspects to be defined here:
     -shapes of elements
 */
 
+
 .brutalism {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'space-grotesk', Helvetica, sans-serif;
     --shadow-offset: 3px;
     --border-thickness: 3px;
 }
