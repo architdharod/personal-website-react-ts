@@ -31,22 +31,22 @@ nav {
 }   
 
 h1 {
-    font-size: clamp(2.5rem,6vw,3.8rem);
+    /* font-size: clamp(2.5rem,6vw,3.8rem); */
+    font-size: clamp(2rem, 1.56rem + 2.0382vw, 4rem);
     font-weight: bold;
     margin-inline: auto;
     text-align: center;
 }
 
 h2 {
-    /* font-size: 1.8rem; */
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-size: clamp(1.5rem, 1.1656rem + 1.5287vw, 3rem);
     font-weight: bold;
     margin-inline:auto;
     text-align: center;
 }
 
 p {
-    font-size: clamp(1rem, 3vw ,2rem);
+    font-size: clamp(0.9375rem, 0.7285rem + 0.9554vw, 1.875rem);
     line-height: 2.5rem;
 }
 
@@ -61,7 +61,7 @@ nav > div {
 }
 
 #name {
-    font-size: clamp(1rem, 4.5vw, 1.2rem);
+    font-size: clamp(1.25rem, 1.0828rem + 0.7643vw, 2rem);
     font-weight: bold;
 }
 
@@ -165,16 +165,22 @@ section, footer {
 #project .description {
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-inline:auto;
+    
+    font-size: clamp(1.25rem, 1.0549rem + 0.8917vw, 2.125rem);
+    font-weight: normal;
+    justify-self: left;
+    
 }
 
 #project .email {
-    margin-inline: auto;
+    font-weight: bold;
+    font-size: clamp(1.5rem, 1.1656rem + 1.5287vw, 3rem);
+    justify-self: left;
 }
 
 /* Footer Section Base CSS */
 footer button {
-    font-size: clamp(1.2rem, 4vw,2.5rem);
+    font-size: clamp(1.25rem, 0.9713rem + 1.2739vw, 2.5rem);
     padding: 0.5em;
 }
 
@@ -212,6 +218,19 @@ footer {
 footer h3, footer h4 {
     margin-inline: auto;
     text-align: center;
+}
+
+footer h3 {
+    font-size: clamp(0.9375rem, 0.8121rem + 0.5732vw, 1.5rem);
+    font-weight: normal;
+}
+
+footer h4 {
+    font-size: clamp(0.75rem, 0.6943rem + 0.2548vw, 1rem);
+}
+
+.social-media .bi {
+    font-size: clamp(1.25rem, 1.1107rem + 0.6369vw, 1.875rem);
 }
 
 

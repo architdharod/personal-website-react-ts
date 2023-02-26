@@ -8,7 +8,7 @@ Following aspects to be defined here:
 
 
 .brutalism {
-    font-family: 'space-grotesk', Helvetica, sans-serif;
+    font-family: 'space-grotesk', sans-serif;
     --shadow-offset: 3px;
     --border-thickness: 3px;
 }
