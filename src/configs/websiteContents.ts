@@ -105,7 +105,7 @@ export const websiteContent : AllContent = {
                 }
             ],
             description:"Drop me a mail and we can set up some time to chat!",
-            email: "hire-me@dharod.de"
+            email: "mail@dharod.de"
         },
         FooterSection:{
             cvButtonText:"Get a free copy of my CV!",
@@ -119,7 +119,7 @@ export const websiteContent : AllContent = {
         },
         MainSection:{
             title:"Erscaffer von Webseites & Zerstörer von Bugs",
-            description:"Moin moin, ich bin ausgebildeter Robotik-Ingenieur und beruflich (und leidenschaftlich!) Front-End Entwickler. Als in Indien geborener und in Deutschland gemachter Entwickler strebe ich danach, das Beste aus beiden Welten zu nutzen und es zur Schaffung interaktiver, kreativer und fachgerechter digitaler Erlebnisse zu nutzen!"
+            description:"Moin moin, ich bin ausgebildeter Robotik-Ingenieur und beruflich (und leidenschaftlich!) Front-End Entwickler. Als in Indien geborener und in Deutschland gemachter Entwickler strebe ich danach, das Beste aus beiden Welten zu vereinen - und es zu nutzen, um interaktive, kreative und fachgerechte digitale Erlebnisse zu schaffen!"
         },
         SkillSection:{
             title:"Werkzeuge und Technologie",
@@ -159,7 +159,7 @@ export const websiteContent : AllContent = {
                 }
             ],
         description:"Drop me a mail and we can set up some time to chat!",
-        email: "hire-me@dharod.de"
+        email: "mail@dharod.de"
         },
         FooterSection:{
             cvButtonText:"kostenlose Kopie meines Lebenslaufs!",

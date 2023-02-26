@@ -11,7 +11,8 @@ function App(){
 
   const [appSetting, setAppSetting] = useState<AppSettings>({
     style:"brutalism",
-    lightMode:true
+    lightMode:true,
+    langImgSrc:"DE"
   })
 
   const [currentTextLanguage, setTextLanguage] = useState<ContentStructure>(
@@ -21,13 +22,22 @@ function App(){
   const handleClickOnLang = (event: React.MouseEvent<HTMLButtonElement>): void => {
     const id = event.currentTarget.id;
     event.stopPropagation();
+
     if(id == "EN") {
+      event.currentTarget.id = "DE";
       setTextLanguage(oldlang => {
         return {...websiteContent.EN}
+      });
+      setAppSetting(oldSetting => {
+        return {...oldSetting, langImgSrc: "DE"}
       })
     } else if (id == "DE"){
+      event.currentTarget.id = "EN";
       setTextLanguage(oldlang => {
         return {...websiteContent.DE}
+      })
+      setAppSetting(oldSetting => {
+        return {...oldSetting, langImgSrc: "EN"}
       })
     }
   };
@@ -56,6 +66,7 @@ function App(){
     <div className={`${appSetting.style} ${appSetting.style}-${appSetting.lightMode ? "light" : "dark" }`}>
       <Navbar 
         {...currentTextLanguage.Navbar}
+        appSetting={appSetting}
         handleClickOnLang={handleClickOnLang}
         handleClickOnTheme={handleClickOnTheme}
       />

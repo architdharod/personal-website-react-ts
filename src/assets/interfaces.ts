@@ -41,7 +41,8 @@ export interface AllContent {
 
 export interface AppSettings {
     style: "brutalism" | "neomorphism",
-    lightMode: Boolean
+    lightMode: Boolean,
+    langImgSrc: string
   }
 
 //TODO: add a default symbol for the skills section

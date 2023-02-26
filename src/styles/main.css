@@ -23,7 +23,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center ;
     height: 60px;
     position: sticky;
     top: 0;
@@ -35,7 +35,7 @@ h1 {
     font-size: clamp(2rem, 1.56rem + 2.0382vw, 4rem);
     font-weight: bold;
     margin-inline: auto;
-    text-align: center;
+    text-align:center;
 }
 
 h2 {
@@ -55,9 +55,14 @@ nav > div {
     margin-right: 0.9em;
 }
 
+.toggle-buttons{
+    display: flex;
+}
+
 .toggle-buttons > * {
     min-height: 30px;
     margin-left: 0.35em;
+    overflow: hidden;
 }
 
 #name {
@@ -184,6 +189,11 @@ footer button {
     display: block;
     margin-inline: auto;
     margin-bottom: 0.8em;
+}
+
+.cv-button-link {
+    text-decoration: none;
+    color: inherit;
 }
 
 .social-media {
