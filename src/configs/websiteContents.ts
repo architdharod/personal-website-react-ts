@@ -119,7 +119,7 @@ export const websiteContent : AllContent = {
         },
         MainSection:{
             title:"Erscaffer von Webseites & Zerstörer von Bugs",
-            description:"Moin moin, ich bin nach meiner Ausbildung ein Robotikingenieur und beruflich (und aus Leidenschaft!) ein Front-End Entwickler. Als in Indien geborener und in Deutschland gemachter Entwickler strebe ich danach, das Beste aus beiden Welten zu nutzen und es zur Schaffung interaktiver, kreativer und fachgerechter digitaler Erlebnisse zu nutzen!"
+            description:"Moin moin, ich bin ausgebildeter Robotik-Ingenieur und beruflich (und leidenschaftlich!) Front-End Entwickler. Als in Indien geborener und in Deutschland gemachter Entwickler strebe ich danach, das Beste aus beiden Welten zu nutzen und es zur Schaffung interaktiver, kreativer und fachgerechter digitaler Erlebnisse zu nutzen!"
         },
         SkillSection:{
             title:"Werkzeuge und Technologie",

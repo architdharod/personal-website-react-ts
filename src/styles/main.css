@@ -4,7 +4,7 @@
     background: rgba(0, 147, 0, 0.09) !important;
 }  */
 
-/* Importing Fonts */
+/* Importing Fonts for brutalism*/
 @font-face {
     font-family: 'space-grotesk';
     src: url('/src/assets/fonts/space-grotesk-v15-latin-regular.woff2') format('woff2'),
@@ -47,7 +47,7 @@ h2 {
 
 p {
     font-size: clamp(0.9375rem, 0.7285rem + 0.9554vw, 1.875rem);
-    line-height: 2.5rem;
+    line-height: 1.5;
 }
 
 nav > div {
@@ -67,7 +67,7 @@ nav > div {
 
 /*  Sections eg: Main section, skills section etc. */
 section, footer {
-    padding: clamp(1em,5vw,6em) 1em;
+    padding: clamp(1rem, -0.1146rem + 5.0955vw, 6rem) 1em;
 }
 
 #main .container, #skills .container, #project .container , footer .container{
@@ -82,10 +82,6 @@ section, footer {
 }
 
 /*  Main section base css  */
-#main {
-    padding-top: 3em;
-}
-
 #main h1 {
     text-align: center;
 }
@@ -96,7 +92,7 @@ section, footer {
 
 #main .container {
     display: grid;
-    gap: 4em;
+    gap: clamp(1.5rem, 0.9427rem + 2.5478vw, 4rem);
     justify-items: center;
 }
 
@@ -104,7 +100,7 @@ section, footer {
 /*  Skills section base css  */
 #skills .container {
     display: grid;
-    gap: 3em;
+    gap: clamp(1.5rem, 0.9427rem + 2.5478vw, 4rem);
     justify-items: center;
 }
 
@@ -115,7 +111,8 @@ section, footer {
 }
 
 .skill-card {
-    height: clamp(2.7em, 3.5vw , 3em);
+    /* height: clamp(2.7em, 3.5vw , 3em); */
+    height: clamp(2.2rem, 2.0217rem + 0.8153vw, 3rem);
     padding-left: clamp(0.5em, 2vw, 0.5em);
     padding-right: clamp(0.5em, 2vw, 0.5em);
     margin-right: 0.5em;
@@ -138,7 +135,7 @@ section, footer {
 #project .container {
     display: grid;
     justify-items: center;
-    gap: 2em;
+    gap: clamp(1rem, 0.5541rem + 2.0382vw, 3rem);
 }
 
 .project-card{
@@ -169,7 +166,6 @@ section, footer {
     font-size: clamp(1.25rem, 1.0549rem + 0.8917vw, 2.125rem);
     font-weight: normal;
     justify-self: left;
-    
 }
 
 #project .email {
@@ -210,11 +206,6 @@ footer * {
     margin-bottom: 0.5em;
 }
 
-footer {
-    padding-top: clamp(1em,3vw,1.9em);
-    padding-bottom: clamp(1em,3vw,1.9em);
-}
-
 footer h3, footer h4 {
     margin-inline: auto;
     text-align: center;
@@ -243,7 +234,7 @@ footer h4 {
     /*Main section*/
     #main .container {
         grid-template-columns: 2fr min(40%, 23.5em);
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 1fr 1.5fr;
     }
 
     #main h1 {
