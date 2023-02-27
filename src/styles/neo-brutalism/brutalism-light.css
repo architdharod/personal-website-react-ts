@@ -1,12 +1,31 @@
 /*  light theme for neo-brutalism   */
 .brutalism-light {
+    --font-color-1: black;
+    --font-color-2: black;
+
     --color-1: #ffd84c;
     --color-2: #78CD76;
     --color-3: #3F8CFF;
     --color-4: #FF7373;
-    --icon-color: black;
-    --border-color: black;
+    --color-5: white;
+
     --background-color: white;
+
+    --icon-color: black;
+
+    --border-color-1: black;
+    --border-color-2: white;
+
+    --shadow-color-1: black;
+    --shadow-color-2: white;
+}
+
+/* Font colors */
+h1, h2, h3, h4, p, a, 
+button, 
+.description, 
+.email {
+    color: var(--font-color-1);
 }
 
 /* Navigation */
@@ -15,17 +34,19 @@
 }
 
 .brutalism-light button {
-    border: 2px solid var(--border-color);
+    border: 2px solid var(--border-color-1);
     background-color: var(--background-color);
 }
 
 .brutalism-light button:hover {
-    box-shadow: var(--shadow-offset) var(--shadow-offset) black;
+    box-shadow: var(--shadow-offset) var(--shadow-offset) var(--shadow-color-1);
 }
 
 /* Main Section */
 .brutalism-light #profile-picture {
-    border: 2px solid var(--border-color);
+    border: var(--border-thickness) solid var(--border-color-1);
+    box-shadow: var(--shadow-offset) var(--shadow-offset) var(--shadow-color-2),
+                var(--shadow-offset-2) var(--shadow-offset-2) var(--shadow-color-1);
 }
 
 /* Skills Section */
@@ -35,10 +56,22 @@
 
 .brutalism-light .skill-card {
     background-color: var(--background-color);
-    border: 2px solid var(--border-color);
+    border: 2px solid var(--border-color-1);
+    color: var(--font-color-1);
 }
 
-/* Footer sectio */
+/* Project section */
+.brutalism-light #project{
+    background-color: var(--color-5);
+}
+
+.brutalism-light .project-card img,
+.brutalism-light .project-card {
+    border-color: var(--border-color-1);
+    background-color: var(--background-color);
+}
+
+/* Footer section */
 .brutalism-light footer {
     background-color: var(--color-3);
 }

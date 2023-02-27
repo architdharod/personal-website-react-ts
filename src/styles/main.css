@@ -45,14 +45,18 @@ h2 {
     text-align: center;
 }
 
+h4 {
+    font-size: clamp(0.7rem, 0.6331rem + 0.3057vw, 1rem);
+}
+
 p {
     font-size: clamp(0.9375rem, 0.7285rem + 0.9554vw, 1.875rem);
     line-height: 1.5;
 }
 
 nav > div {
-    margin-left: clamp(0.8rem, 0.4768rem + 1.4777vw, 2.25rem);
-    margin-right: clamp(0.8rem, 0.4768rem + 1.4777vw, 2.25rem);
+    margin-left: clamp(0.8rem, 0.4768rem + 1.4777vw, 2rem);
+    margin-right: clamp(0.8rem, 0.4768rem + 1.4777vw, 2rem);
 }
 
 .toggle-buttons{
@@ -148,7 +152,7 @@ section, footer {
     width: min(90%, 80em);
     margin-inline: auto;
 
-    border: 2px solid black;
+    border: 2px solid;
     border-radius: 15px;
     overflow: hidden;
 }
