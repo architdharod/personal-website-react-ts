@@ -3,17 +3,17 @@ import { AllContent } from "../assets/interfaces";
 const commonSkills = [
 {
     key: 1,
-    name:"Typescript",
+    name:"TypeScript",
     logo:"https://skillicons.dev/icons?i=typescript"
 },
 {
     key: 2,
-    name:"React",
+    name:"React.js",
     logo:"https://skillicons.dev/icons?i=react"
 },
 {
     key: 3,
-    name:"Node.JS",
+    name:"Node.js",
     logo:"https://skillicons.dev/icons?i=nodejs"
 },
 {
@@ -28,13 +28,13 @@ const commonSkills = [
 },
 {
     key: 6,
-    name:"MySQL",
-    logo:"https://skillicons.dev/icons?i=mysql"
+    name:"Docker",
+    logo:"https://skillicons.dev/icons?i=docker"
 },
 {
     key: 7,
-    name:"Docker",
-    logo:"https://skillicons.dev/icons?i=docker"
+    name:"MySQL",
+    logo:"https://skillicons.dev/icons?i=mysql"
 },
 {
     key: 8,
@@ -69,7 +69,7 @@ export const websiteContent : AllContent = {
         },
         SkillSection:{
             title:"Tools and Technology",
-            description: "Also write a bit about how I took initiative and learnt these skills on my own, and managed Projects on my own. Show How i am driven to learn new things.",
+            description: "In addition to training in languages like C++ and Python in the University, I learnt all these tools and technologies on the job to fullfill Project requirements in the best possible way. Many of these projects were fully managed, coordinated and sucessfully completed by me!",
             skills: commonSkills
         },
         ProjectSection:{

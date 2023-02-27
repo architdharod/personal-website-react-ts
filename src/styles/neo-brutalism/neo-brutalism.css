@@ -30,6 +30,12 @@ Following aspects to be defined here:
     border-bottom: var(--border-thickness) solid ;
 }
 
+.brutalism .project-card{
+    border: 2px solid;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
 .brutalism .cv-button {
     border-radius: 0.5em;
 }
