@@ -118,7 +118,7 @@ export const websiteContent : AllContent = {
             name:"Archit Dharod"
         },
         MainSection:{
-            title:"Erscaffer von Webseites & Zerstörer von Bugs",
+            title:"Erschaffer von Webseites & Zerstörer von Bugs",
             description:"Moin moin, ich bin ausgebildeter Robotik-Ingenieur und beruflich (und leidenschaftlich!) Front-End Entwickler. Als in Indien geborener und in Deutschland gemachter Entwickler strebe ich danach, das Beste aus beiden Welten zu vereinen - und es zu nutzen, um interaktive, kreative und fachgerechte digitale Erlebnisse zu schaffen!"
         },
         SkillSection:{

@@ -51,8 +51,8 @@ p {
 }
 
 nav > div {
-    margin-left: 0.9em;
-    margin-right: 0.9em;
+    margin-left: clamp(0.8rem, 0.4768rem + 1.4777vw, 2.25rem);
+    margin-right: clamp(0.8rem, 0.4768rem + 1.4777vw, 2.25rem);
 }
 
 .toggle-buttons{
@@ -60,7 +60,8 @@ nav > div {
 }
 
 .toggle-buttons > * {
-    min-height: 30px;
+    font-size: clamp(0.875rem, 0.7914rem + 0.3822vw, 1.25rem);
+    min-height: clamp(1.875rem, 1.7914rem + 0.3822vw, 2.25rem);
     margin-left: 0.35em;
     overflow: hidden;
 }
