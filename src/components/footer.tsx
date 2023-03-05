@@ -4,7 +4,7 @@ export default function Footer(){
         <footer>
             <div className="container">
                 <button className="cv-button">
-                    <a className="cv-button-link" href="/public/cv.pdf" target="_blank">Get a free copy of my CV!</a>
+                    <a className="cv-button-link" href="./cv.pdf" target="_blank">Get a free copy of my CV!</a>
                 </button>
                 <div className="social-media">
                     <a href="https://github.com/architdharod" target="#">
