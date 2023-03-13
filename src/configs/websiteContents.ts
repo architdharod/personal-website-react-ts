@@ -69,7 +69,7 @@ export const websiteContent : AllContent = {
         },
         SkillSection:{
             title:"Tools and Technology",
-            description: "In addition to training in languages like C++ and Python in the University, I learnt all these tools and technologies on the job to fullfill Project requirements in the best possible way. Many of these projects were fully managed, coordinated and sucessfully completed by me!",
+            description: "In addition to training in languages like C++ and Python in the University, I learnt a lot of these frameworks and technologies on the job to fullfill Project requirements in the best possible way. Many of these projects were fully managed, coordinated and sucessfully completed by me!",
             skills: commonSkills
         },
         ProjectSection:{
@@ -77,40 +77,40 @@ export const websiteContent : AllContent = {
             project:[
                 {
                     key: 1,
-                    title: "Project 1",
-                    thumbnail: "https://source.unsplash.com/700x400/?telephone",
-                    description:"I made this really cool project about xyz. this particular project has a lot of text. I am adding some more text to make it overflow and check that the size remains same ",
-                    skills:"TypeScript, React"
+                    title: "Internal Training Website for ZF Friedrichshafen AG",
+                    thumbnail: "./zf.png",
+                    description:"This was the first ever website that I coded! Although made with just HTML and CSS, I really enjoyed making it user friendly and visually appealing.",
+                    skills:"HTML, CSS, Bootstrap"
                 },
                 {
                     key: 2,
-                    title: "Project 2",
-                    thumbnail: "https://source.unsplash.com/700x400/?programming",
-                    description:"I made this really cool project about xyz. ",
-                    skills:"TypeScript, React"
+                    title: "Personal Portfolio Website Using React.js",
+                    thumbnail: "./my-site.png",
+                    description:"A self-designed and coded portfolio website using React.js to showcase my front-end development skills. The source code for this website is available on my GitHub.",
+                    skills:"TypeScript, React.js, HTML, CSS3, Vite, Figma, Docker"
                 },
                 {
                     key: 3,
-                    title: "Project 3",
-                    thumbnail: "https://source.unsplash.com/700x400/?website",
-                    description:"I made this really cool project about xyz. ",
-                    skills:"TypeScript, React"
+                    title: "Telephone and Chat Bots",
+                    thumbnail: "./bot.png",
+                    description:"I designed and deployed an integrated solution that features an IVR telephone answering bot and a chatbot to automate redundant customer service tasks. Additionally, I built a REST API interface for these bots to retrieve relevant data from a data bank for the customer.",
+                    skills:"TypeScript, Node.js, node-ari-client, Asterisk, MySQL, Docker"
                 },
                 {
                     key: 4,
-                    title: "Project 4",
-                    thumbnail: "https://source.unsplash.com/700x400/?elephant",
-                    description:"I made this really cool project about xyz. this particular project has a lot of text. I am adding some more text to make it overflow and check that the size remains same ",
-                    skills:"TypeScript, React, HTML, CSS3, Flex-Box, Grid"
+                    title: "Customer Service Agent Performance Dashboard",
+                    thumbnail: "./dashboard.png",
+                    description:"Developed a dashboard using React.js and third-party API endpoints to monitor key performance metrics of Customer Service agents. The dashboard helped managers make data-driven decisions to improve agent efficiency and customer satisfaction.",
+                    skills:"TypeScript, React.js"
                 }
             ],
-            description:"Drop me a mail and we can set up some time to chat!",
+            description:"Send me an email and we can arrange a time to talk!",
             email: "mail@dharod.de"
         },
         FooterSection:{
             cvButtonText:"Get a free copy of my CV!",
             description:"Designed and coded by me (with a little help from my friends)",
-            inspiration:"Heavily inspired from gumroad.com"
+            inspiration:"Heavily inspired from "
         }
     },
     DE:{
@@ -123,48 +123,48 @@ export const websiteContent : AllContent = {
         },
         SkillSection:{
             title:"Werkzeuge und Technologie",
-            description: "Also write a bit about how I took initiative and learnt these skills on my own, and managed Projects on my own. Show How i am driven to learn new things.",
+            description: "Neben der akademischen Ausbildung in Sprachen wie C++ und Python an der Universität, habe ich auf dem Job viele dieser Frameworks und Technologien erlernt, um Projektanforderungen bestmöglich zu erfüllen. Viele dieser Projekte wurden vollständig von mir verwaltet, koordiniert und erfolgreich abgeschlossen!",
             skills:commonSkills
         },
         ProjectSection:{
-            title: "Projects",
+            title: "Projekte",
             project:[
                 {
                     key: 1,
-                    title: "Project 1 (DE)",
-                    thumbnail: "https://source.unsplash.com/700x400/?telephone",
-                    description:"I made this really cool project about xyz. ",
-                    skills:"TypeScript, React"
+                    title: "Internal Training Website for ZF Friedrichshafen AG",
+                    thumbnail: "./zf.png",
+                    description:"Das war die allererste Website, die ich programmiert habe! Obwohl ich nur HTML und CSS verwendet habe, hat es mir wirklich Spaß gemacht, sie benutzerfreundlich und ästhetisch ansprechend zu gestalten.",
+                    skills:"HTML, CSS, Bootstrap"
                 },
                 {
                     key: 2,
-                    title: "Project 2 (DE)",
-                    thumbnail: "https://source.unsplash.com/700x400/?programming",
-                    description:"I made this really cool project about xyz. ",
-                    skills:"TypeScript, React"
+                    title: "Personal Portfolio Website Using React.js",
+                    thumbnail: "./my-site.png",
+                    description:"Eine selbst konzipierte und mit React.js umgesetzte Portfolio-Website, um meine Kenntnisse im Bereich Frontend-Entwicklung zu vermitteln. Der Source Code für diese Website ist auf meiner GitHub-Seite verfügbar.",
+                    skills:"TypeScript, React.js, HTML, CSS3, Vite, Figma, Docker"
                 },
                 {
                     key: 3,
-                    title: "Project 3 (DE)",
-                    thumbnail: "https://source.unsplash.com/700x400/?website",
-                    description:"I made this really cool project about xyz. ",
-                    skills:"TypeScript, React"
+                    title: "Telephone and Chat Bots",
+                    thumbnail: "./bot.png",
+                    description:"Entwicklung und Bereitstellung einer integrierten Lösung mit einem IVR-Telefonbeantwortungsbot und einem Chatbot, um redundante Kundendienstaufgaben zu automatisieren. Zudem habe ich eine REST-API-Schnittstelle für diese Bots entwickelt, um relevante Daten aus einer Datenbank für den Kunden abzurufen.",
+                    skills:"TypeScript, Node.js, node-ari-client, Asterisk, MySQL, Docker"
                 },
                 {
                     key: 4,
-                    title: "Project 4",
-                    thumbnail: "https://source.unsplash.com/700x400/?elephant",
-                    description:"I made this really cool project about xyz. this particular project has a lot of text. I am adding some more text to make it overflow and check that the size remains same ",
-                    skills:"TypeScript, React, HTML, CSS3, Flex-Box, Grid"
+                    title: "Customer Service Agent Performance Dashboard",
+                    thumbnail: "./dashboard.png",
+                    description:"Entwicklung eines Dashboards mit React.js und Drittanbieter-API-Endpunkten zur Überwachung wichtiger Leistungskennzahlen von Kundenservice-Agenten. Das Dashboard half Führungskräften, datengestützte Entscheidungen zu treffen, um die Effizienz der Mitarbeiter und die Kundenzufriedenheit zu verbessern.",
+                    skills:"TypeScript, React.js"
                 }
             ],
-        description:"Drop me a mail and we can set up some time to chat!",
+        description:"Senden Sie mir eine E-Mail und wir können einen Gesprächstermin vereinbaren!",
         email: "mail@dharod.de"
         },
         FooterSection:{
             cvButtonText:"kostenlose Kopie meines Lebenslaufs!",
-            description:"Von mir eigenhändig gestaltet und kodiert (mit einem Hauch von Unterstützung durch meine Freunde)",
-            inspiration:"Heavily inspired from gumroad.com"
+            description:"Designed und entwickelt von mir ( mit einem Hauch von Unterstützung von Freunden).",
+            inspiration:"Inspiriert von "
         }
     }
 }

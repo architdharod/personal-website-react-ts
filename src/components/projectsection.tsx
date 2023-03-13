@@ -16,10 +16,12 @@ export default function ProjectSection({title, project, description, email}: Pro
     const projectCard = project.map((project)=>{
         return (
             <div className="project-card" key={project.key}>
-                <img src={project.thumbnail}></img>
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <h4>{project.skills}</h4>
+                <a href={project.thumbnail} target="#">
+                    <img src={project.thumbnail}></img>
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                    <h4>{project.skills}</h4>
+                </a>
             </div>
         )
     })

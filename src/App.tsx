@@ -79,7 +79,9 @@ function App(){
       <ProjectSection 
       {...currentTextLanguage.ProjectSection}
       />
-      <Footer />
+      <Footer 
+      {...currentTextLanguage.FooterSection}
+      />
     </div>
     )
 }
