@@ -40,7 +40,7 @@ export interface AllContent {
 }
 
 export interface AppSettings {
-    style: "brutalism" | "neomorphism",
+    style: "brutalism" | "neumorphism",
     lightMode: Boolean,
     langImgSrc: string
   }

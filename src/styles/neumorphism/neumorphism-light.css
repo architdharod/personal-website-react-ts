@@ -1,0 +1,31 @@
+.neumorphism-light footer button {
+    border-radius: 40px;
+    background: #e0e0e0;
+    box-shadow:  21px 21px 52px #bebebe,
+                -21px -21px 52px #ffffff;
+}
+
+.neumorphism-light footer button:active {
+    border-radius: 40px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  13px 13px 21px #d3d3d3,
+             -13px -13px 21px #ededed;
+}
+
+.neumorphism-light nav button {
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow:  4px 4px 8px #c7c7c7,
+             -4px -4px 8px #f9f9f9;
+}
+
+.neumorphism-light nav button:active {
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  6px 6px 12px #d3d3d3,
+             -6px -6px 12px #ededed;
+}
+
+.neumorphism-light footer, .neumorphism-light nav {
+    background-color: #e0e0e0;
+}
+

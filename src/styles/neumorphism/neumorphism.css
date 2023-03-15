@@ -1,0 +1,10 @@
+/*Basic Responsive structure for neumorphism theme*/
+
+/*
+Following aspects to be defined here:
+    -Animations
+    -shapes of elements
+*/
+button {
+    border: transparent;
+}

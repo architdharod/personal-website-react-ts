@@ -54,7 +54,7 @@ function App(){
     else if(id == "style"){
       setAppSetting(oldSetting => {
         const newStyle : AppSettings = oldSetting.style == "brutalism" ? 
-        {...oldSetting, style: "neomorphism"} :
+        {...oldSetting, style: "neumorphism"} :
         {...oldSetting, style:"brutalism"}
 
         return {...newStyle}
@@ -87,3 +87,6 @@ function App(){
 }
 
 export default App
+
+
+//TODO: add eslint and whatnot for formatting!
