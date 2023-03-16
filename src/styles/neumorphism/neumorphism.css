@@ -5,6 +5,35 @@ Following aspects to be defined here:
     -Animations
     -shapes of elements
 */
+
+
+/*variables*/
+.neumorphism {
+    --radius-nav-btn: 15px;
+    --radius-footer-btn: 40px;
+}
+
+/*Fonts*/
+
 button {
     border: transparent;
 }
+
+/* Shape of the image */
+.neumorphism #main img{
+    border-radius: 2em;
+    padding: 1em;
+}
+
+/*shape of the cards*/
+.neumorphism .project-card{
+    padding: 0.5em;
+}
+
+.neumorphism .project-card img {
+    border-radius: 1.5em;
+    padding: 1em;
+}
+
+/*shape of the sections*/
+

@@ -1,46 +1,45 @@
-.neumorphism-light {
-    --base-color-1: #e6e6e6;
-    --shadow-light: #cacaca;
-    --shadow-dark:#ffffff;
+.neumorphism-dark {
+    --base-color-1: #2f3541;
+    --shadow-light: #21252e;
+    --shadow-dark:#3d4555;
 }
 
 /*Base colors for all sections*/
-.neumorphism-light footer, 
-.neumorphism-light nav,
-.neumorphism-light #main,
-.neumorphism-light #skills,
-.neumorphism-light #project{
+.neumorphism-dark footer, 
+.neumorphism-dark nav,
+.neumorphism-dark #main,
+.neumorphism-dark #skills,
+.neumorphism-dark #project{
     background-color: var(--base-color-1);
 }
 
-/* Navigation */
-.neumorphism-light nav {
+/* Navigation buttons*/
+.neumorphism-dark nav {
     box-shadow:  0px 12px 28px #13151a,
                 0px -12px 28px #4b5568;
 }
-
-.neumorphism-light nav button {
+.neumorphism-dark nav button {
     border-radius: var(--radius-nav-btn);
     background: var(--base-color-1);
     box-shadow:  4px 4px 8px var(--shadow-light),
                 -4px -4px 8px var(--shadow-dark);
 }
 
-.neumorphism-light nav button:active {
-    background: linear-gradient(145deg, #cfcfcf, #f6f6f6);
+.neumorphism-dark nav button:active {
+    background: linear-gradient(145deg, #2a303b, #323946);
     box-shadow:  4px 4px 8px var(--shadow-light),
                 -4px -4px 8px var(--shadow-dark);
 }
 
 /* Main section */
-.neumorphism-light #main img{
+.neumorphism-dark #main img{
     background: var(--base-color-1);
     box-shadow:  13px 13px 21px var(--shadow-light),
                 -13px -13px 21px var(--shadow-dark);
 }
 
-/* Project Section */
-.neumorphism-light .project-card {
+/* Project section */
+.neumorphism-dark .project-card {
     border-radius: 1em;
     background: var(--base-color-1);
     box-shadow:  13px 13px 21px var(--shadow-light),
@@ -48,16 +47,16 @@
 }
 
 /* Footer button */
-.neumorphism-light footer button {
+.neumorphism-dark footer button {
     border-radius: 40px;
     background: var(--base-color-1);
     box-shadow:  13px 13px 21px var(--shadow-light),
                 -13px -13px 21px var(--shadow-dark);
 }
 
-.neumorphism-light footer button:active {
+.neumorphism-dark footer button:active {
     border-radius: 40px;
-    background: linear-gradient(170deg, #cfcfcf, #f6f6f6);
-    box-shadow:  13px 13px 21px var(--shadow-light),
+    background: linear-gradient(170deg, #2a303b, #323946);
+box-shadow:  13px 13px 21px var(--shadow-light),
             -13px -13px 21px var(--shadow-dark);
 }
