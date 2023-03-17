@@ -2,27 +2,52 @@
     --base-color-1: #2f3541;
     --shadow-light: #21252e;
     --shadow-dark:#3d4555;
+    --font-color: #adb0b7;
+    --font-color-hover:#f1f2f6;
+    --font-color-hover-2: rgb(255, 255, 255);
+    --font-shadow-hover: #f0f0f093;
+    --font-shadow-hover-2: rgba(255, 255, 255, 0.498);
 }
 
-/*Base colors for all sections*/
-.neumorphism-dark footer, 
+/*Base colors for all sections*/ 
 .neumorphism-dark nav,
 .neumorphism-dark #main,
 .neumorphism-dark #skills,
-.neumorphism-dark #project{
+.neumorphism-dark #project,
+.neumorphism-dark footer{
     background-color: var(--base-color-1);
+}
+
+/* Font colors */
+.neumorphism-dark h1, 
+.neumorphism-dark h2, 
+.neumorphism-dark h3, 
+.neumorphism-dark h4, 
+.neumorphism-dark p, 
+.neumorphism-dark a, 
+.neumorphism-dark button, 
+.neumorphism-dark .description, 
+.neumorphism-dark .email,
+.neumorphism-dark .skill-card {
+    color: var(--font-color);
 }
 
 /* Navigation buttons*/
 .neumorphism-dark nav {
-    box-shadow:  0px 12px 28px #13151a,
-                0px -12px 28px #4b5568;
+    box-shadow:  0px -12px 25px #13151a
 }
 .neumorphism-dark nav button {
     border-radius: var(--radius-nav-btn);
     background: var(--base-color-1);
     box-shadow:  4px 4px 8px var(--shadow-light),
                 -4px -4px 8px var(--shadow-dark);
+}
+
+.neumorphism-dark nav button:hover,
+.neumorphism-dark footer a:hover,
+.neumorphism-dark .cv-button:hover .cv-button-link {
+    color: var(--font-color-hover);
+    text-shadow: 0 0 3px var(--font-shadow-hover);
 }
 
 .neumorphism-dark nav button:active {
@@ -36,6 +61,13 @@
     background: var(--base-color-1);
     box-shadow:  13px 13px 21px var(--shadow-light),
                 -13px -13px 21px var(--shadow-dark);
+}
+
+/* skills section */
+.neumorphism-dark .skill-card {
+    background: var(--base-color-1);
+    box-shadow:  inset 4px 4px 8px var(--shadow-light),
+                inset -4px -4px 8px var(--shadow-dark);
 }
 
 /* Project section */

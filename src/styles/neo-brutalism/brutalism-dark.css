@@ -22,11 +22,16 @@
 }
 
 /* Font colors */
-h1, h2, h3, h4, p, a, 
-button, 
-.description, 
-.email,
-#name {
+.brutalism-dark h1, 
+.brutalism-dark h2, 
+.brutalism-dark h3, 
+.brutalism-dark h4, 
+.brutalism-dark p, 
+.brutalism-dark a, 
+.brutalism-dark button, 
+.brutalism-dark .description, 
+.brutalism-dark .email,
+.brutalism-dark #name {
     color: var(--font-color-1);
 }
 

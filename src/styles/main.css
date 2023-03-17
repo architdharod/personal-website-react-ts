@@ -19,6 +19,22 @@
          url('/src/assets/fonts/space-grotesk-v15-latin-700.ttf') format('ttf');
 }
 
+/* Importing fonts for neumorphism*/
+@font-face {
+    font-family: 'nunito';
+    src: url('/src/assets/fonts/nunito-v25-latin-300.woff2') format('woff2'),
+        url('/src/assets/fonts/nunito-v25-latin-300.woff') format('woff')
+        url('/src/assets/fonts/nunito-v25-latin-300.ttf') format('ttf')
+}
+
+@font-face {
+    font-family: 'nunito';
+    font-weight: bold;
+    src: url('/src/assets/fonts/nunito-v25-latin-600.woff2') format('woff2'),
+        url('/src/assets/fonts/nunito-v25-latin-600.woff') format('woff')
+        url('/src/assets/fonts/nunito-v25-latin-600.ttf') format('ttf')
+}
+
 /*  Navigation base css  */
 nav {
     display: flex;

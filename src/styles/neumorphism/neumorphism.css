@@ -9,6 +9,7 @@ Following aspects to be defined here:
 
 /*variables*/
 .neumorphism {
+    font-family:'nunito', sans-serif;
     --radius-nav-btn: 15px;
     --radius-footer-btn: 40px;
 }
@@ -33,6 +34,10 @@ button {
 .neumorphism .project-card img {
     border-radius: 1.5em;
     padding: 1em;
+}
+
+.neumorphism .skill-card{
+    border-radius: 0.5em;
 }
 
 /*shape of the sections*/

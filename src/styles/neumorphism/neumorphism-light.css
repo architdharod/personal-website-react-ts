@@ -2,21 +2,38 @@
     --base-color-1: #e6e6e6;
     --shadow-light: #cacaca;
     --shadow-dark:#ffffff;
+    /*--font-color: #4a4a4a;*/
+    --font-color:#636773;
+    --font-color-hover: #97c9e1;
+    --font-shadow-hover:#bac7cd00;
 }
 
-/*Base colors for all sections*/
-.neumorphism-light footer, 
+/*Base colors for all sections*/ 
 .neumorphism-light nav,
 .neumorphism-light #main,
 .neumorphism-light #skills,
-.neumorphism-light #project{
+.neumorphism-light #project,
+.neumorphism-light footer{
     background-color: var(--base-color-1);
+}
+
+/* Font colors */
+.neumorphism-light h1, 
+.neumorphism-light h2, 
+.neumorphism-light h3, 
+.neumorphism-light h4, 
+.neumorphism-light p, 
+.neumorphism-light a, 
+.neumorphism-light button, 
+.neumorphism-light .description, 
+.neumorphism-light .email,
+.neumorphism-light .skill-card, #name {
+    color: var(--font-color);
 }
 
 /* Navigation */
 .neumorphism-light nav {
-    box-shadow:  0px 12px 28px #13151a,
-                0px -12px 28px #4b5568;
+    box-shadow: 0px -12px 25px #3e4656;
 }
 
 .neumorphism-light nav button {
@@ -24,6 +41,13 @@
     background: var(--base-color-1);
     box-shadow:  4px 4px 8px var(--shadow-light),
                 -4px -4px 8px var(--shadow-dark);
+}
+
+.neumorphism-light nav button:hover,
+.neumorphism-light footer a:hover,
+.neumorphism-light .cv-button:hover .cv-button-link {
+    color: var(--font-color-hover);
+    text-shadow: 0 0 3px var(--font-shadow-hover);
 }
 
 .neumorphism-light nav button:active {
@@ -37,6 +61,13 @@
     background: var(--base-color-1);
     box-shadow:  13px 13px 21px var(--shadow-light),
                 -13px -13px 21px var(--shadow-dark);
+}
+
+/* skills section */
+.neumorphism-light .skill-card {
+    background: var(--base-color-1);
+    box-shadow:  inset 4px 4px 8px var(--shadow-light),
+                inset -4px -4px 8px var(--shadow-dark);
 }
 
 /* Project Section */
@@ -53,6 +84,11 @@
     background: var(--base-color-1);
     box-shadow:  13px 13px 21px var(--shadow-light),
                 -13px -13px 21px var(--shadow-dark);
+}
+
+.neumorphism-light footer button:hover {
+    color: var(--font-color-hover);
+    text-shadow: 0 0 3px var(--font-shadow-hover);
 }
 
 .neumorphism-light footer button:active {
