@@ -81,6 +81,7 @@ function App(){
       />
       <Footer 
       {...currentTextLanguage.FooterSection}
+      appSetting={appSetting.style}
       />
     </div>
     )

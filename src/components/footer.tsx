@@ -1,10 +1,13 @@
+import { AppSettings } from "../assets/interfaces"
+
 interface Props {
     cvButtonText:string,
     description:string,
-    inspiration: string
+    inspiration: string,
+    appSetting: string
 }
 
-export default function Footer({cvButtonText, description, inspiration}:Props){
+export default function Footer({cvButtonText, description, inspiration, appSetting}:Props){
     return (
         <footer>
             <div className="container">
@@ -23,7 +26,10 @@ export default function Footer({cvButtonText, description, inspiration}:Props){
                     </a>
                 </div>
                 <h3>{description}</h3>
-                <h4>{inspiration}<a href="https://gumroad.com" target="#">gumroad.com</a></h4>
+                <h4>{inspiration}
+                        <a href={appSetting=="brutalism" ? "https://gumroad.com" : "https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6"} target="#">
+                            {appSetting=="brutalism" ? "gumroad.com" : "uxdesign.cc"}
+                        </a></h4>
             </div>
         </footer>
     )
