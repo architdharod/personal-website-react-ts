@@ -9,25 +9,13 @@
 }
 
 /*Base colors for all sections*/ 
-.neumorphism-light nav,
-.neumorphism-light #main,
-.neumorphism-light #skills,
-.neumorphism-light #project,
-.neumorphism-light footer{
+.neumorphism-light :is(nav, #main, #skills, #project, footer){
     background-color: var(--base-color-1);
 }
 
 /* Font colors */
-.neumorphism-light h1, 
-.neumorphism-light h2, 
-.neumorphism-light h3, 
-.neumorphism-light h4, 
-.neumorphism-light p, 
-.neumorphism-light a, 
-.neumorphism-light button, 
-.neumorphism-light .description, 
-.neumorphism-light .email,
-.neumorphism-light .skill-card, #name {
+.neumorphism-light :is(h1, h2, h3, h4, p, a, button, .description, .email, .skill-card),
+.neumorphism-light #name {
     color: var(--font-color);
 }
 
@@ -43,9 +31,7 @@
                 -4px -4px 8px var(--shadow-dark);
 }
 
-.neumorphism-light nav button:hover,
-.neumorphism-light footer a:hover,
-.neumorphism-light .cv-button:hover .cv-button-link {
+.neumorphism-light :is(nav button:hover , footer a:hover, .cv-button:hover .cv-button-link) {
     color: var(--font-color-hover);
     text-shadow: 0 0 3px var(--font-shadow-hover);
 }

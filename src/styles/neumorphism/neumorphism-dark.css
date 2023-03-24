@@ -19,16 +19,7 @@
 }
 
 /* Font colors */
-.neumorphism-dark h1, 
-.neumorphism-dark h2, 
-.neumorphism-dark h3, 
-.neumorphism-dark h4, 
-.neumorphism-dark p, 
-.neumorphism-dark a, 
-.neumorphism-dark button, 
-.neumorphism-dark .description, 
-.neumorphism-dark .email,
-.neumorphism-dark .skill-card {
+.neumorphism-dark :is(h1, h2, h3, h4, p, a, button, .description, .email, .skill-card) {
     color: var(--font-color);
 }
 

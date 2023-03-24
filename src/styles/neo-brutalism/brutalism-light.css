@@ -65,8 +65,7 @@ button,
     background-color: var(--color-5);
 }
 
-.brutalism-light .project-card img,
-.brutalism-light .project-card {
+.brutalism-light :is(.project-card img, .project-card) {
     border-color: var(--border-color-1);
     background-color: var(--background-color);
 }
