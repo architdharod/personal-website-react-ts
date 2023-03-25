@@ -5,6 +5,7 @@ interface Props {
         title: string,
         description: string,
         thumbnail:string,
+        source:string,
         skills:string
     } [],
     description:string,
@@ -16,7 +17,7 @@ export default function ProjectSection({title, project, description, email}: Pro
     const projectCard = project.map((project)=>{
         return (
             <div className="project-card" key={project.key}>
-                <a href={project.thumbnail} target="#">
+                <a href={project.source == ""? project.thumbnail : project.source} target="#">
                     <img src={project.thumbnail}></img>
                     <h3>{project.title}</h3>
                     <p>{project.description}</p>
