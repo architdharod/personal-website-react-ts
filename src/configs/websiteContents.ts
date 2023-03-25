@@ -126,7 +126,7 @@ export const websiteContent : AllContent = {
             description:"Moin, ich bin ausgebildeter Robotik-Ingenieur und beruflich (und leidenschaftlich!) Front-End Entwickler. Als in Indien geborener und in Deutschland gemachter Entwickler strebe ich danach, das Beste aus beiden Welten zu vereinen - und es zu nutzen, um interaktive, kreative und fachgerechte digitale Erlebnisse zu schaffen!"
         },
         SkillSection:{
-            title:"Werkzeuge und Technologie",
+            title:"Technologien",
             description: "Neben der akademischen Ausbildung in Sprachen wie C++ und Python an der Universität, habe ich auf dem Job viele dieser Frameworks und Technologien erlernt, um Projektanforderungen bestmöglich zu erfüllen. Viele dieser Projekte wurden vollständig von mir verwaltet, koordiniert und erfolgreich abgeschlossen!",
             skills:commonSkills
         },
