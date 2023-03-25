@@ -4,15 +4,16 @@ interface Props {
     cvButtonText:string,
     description:string,
     inspiration: string,
-    appSetting: string
+    appSetting: string,
+    appLanguage: "EN" | "DE"
 }
 
-export default function Footer({cvButtonText, description, inspiration, appSetting}:Props){
+export default function Footer({cvButtonText, description, inspiration, appSetting, appLanguage}:Props){
     return (
         <footer>
             <div className="container">
                 <button className="cv-button">
-                    <a className="cv-button-link" href="./cv.pdf" target="_blank">{cvButtonText}</a>
+                    <a className="cv-button-link" href={appLanguage != "DE" ? "./CV-DE.pdf" : "./CV-EN.pdf"} target="_blank">{cvButtonText}</a>
                 </button>
                 <div className="social-media">
                     <a href="https://github.com/architdharod" target="#">

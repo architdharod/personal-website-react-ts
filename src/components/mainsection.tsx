@@ -9,7 +9,7 @@ export default function MainSection({title, description}: Props){
         <section id="main">
             <div className="container">
                 <h1>{title}</h1>
-                <img id="profile-picture" src={"./portrait-picture.jpg"}/>
+                <img id="profile-picture" src={"./portrait-picture.webp"}/>
                 <p>{description}</p>
             </div>
         </section>

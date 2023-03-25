@@ -21,6 +21,7 @@ export interface ContentStructure {
             key: number,
             title:string,
             thumbnail: string,
+            source:string,
             description:string,
             skills: string
         }[],
@@ -42,7 +43,7 @@ export interface AllContent {
 export interface AppSettings {
     style: "brutalism" | "neumorphism",
     lightMode: Boolean,
-    langImgSrc: string
+    langImgSrc: "DE" | "EN"
   }
 
 //TODO: add a default symbol for the skills section

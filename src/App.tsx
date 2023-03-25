@@ -82,6 +82,7 @@ function App(){
       <Footer 
       {...currentTextLanguage.FooterSection}
       appSetting={appSetting.style}
+      appLanguage={appSetting.langImgSrc}
       />
     </div>
     )

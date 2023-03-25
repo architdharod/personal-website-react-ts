@@ -78,14 +78,16 @@ export const websiteContent : AllContent = {
                 {
                     key: 1,
                     title: "Internal Training Website for ZF Friedrichshafen AG",
-                    thumbnail: "./zf.png",
-                    description:"This was the first ever website that I coded! Although made with just HTML and CSS, I really enjoyed making it user friendly and visually appealing.",
+                    thumbnail: "./zf.gif",
+                    source:"",
+                    description:"This was the first ever website that I coded! Although made with just HTML and CSS, I really enjoyed making it user friendly and visually appealing - while keeping the theme consistant with ZF's design system. This website helped in making the onboarding process for new interns simpler.",
                     skills:"HTML, CSS, Bootstrap"
                 },
                 {
                     key: 2,
                     title: "Personal Portfolio Website Using React.js",
-                    thumbnail: "./my-site.png",
+                    thumbnail: "./my-site.gif",
+                    source:"https://github.com/architdharod/personal-website-react-ts",
                     description:"A self-designed and coded portfolio website using React.js to showcase my front-end development skills. The source code for this website is available on my GitHub.",
                     skills:"TypeScript, React.js, HTML, CSS3, Vite, Figma, Docker"
                 },
@@ -93,13 +95,15 @@ export const websiteContent : AllContent = {
                     key: 3,
                     title: "Telephone and Chat Bots",
                     thumbnail: "./bot.png",
+                    source:"",
                     description:"I designed and deployed an integrated solution that features an IVR telephone answering bot and a chatbot to automate redundant customer service tasks. Additionally, I built a REST API interface for these bots to retrieve relevant data from a data bank for the customer.",
                     skills:"TypeScript, Node.js, node-ari-client, Asterisk, MySQL, Docker"
                 },
                 {
                     key: 4,
                     title: "Customer Service Agent Performance Dashboard",
-                    thumbnail: "./dashboard.png",
+                    thumbnail: "./dashboard.webp",
+                    source:"",
                     description:"Developed a dashboard using React.js and third-party API endpoints to monitor key performance metrics of Customer Service agents. The dashboard helped managers make data-driven decisions to improve agent efficiency and customer satisfaction.",
                     skills:"TypeScript, React.js"
                 }
@@ -132,28 +136,32 @@ export const websiteContent : AllContent = {
                 {
                     key: 1,
                     title: "Internal Training Website for ZF Friedrichshafen AG",
-                    thumbnail: "./zf.png",
-                    description:"Das war die allererste Website, die ich programmiert habe! Obwohl ich nur HTML und CSS verwendet habe, hat es mir wirklich Spaß gemacht, sie benutzerfreundlich und ästhetisch ansprechend zu gestalten.",
+                    thumbnail: "./zf.gif",
+                    source:"",
+                    description:"Das war die allererste Website, die ich programmiert habe! Obwohl ich nur HTML und CSS verwendet habe, hat es mir wirklich Spaß gemacht, sie benutzerfreundlich und ästhetisch ansprechend zu gestalten - und dabei das Designsystem von ZF beizubehalten. Diese Website hat dazu beigetragen, den Einarbeitungsprozess für neue Praktikanten zu vereinfachen.",
                     skills:"HTML, CSS, Bootstrap"
                 },
                 {
                     key: 2,
                     title: "Personal Portfolio Website Using React.js",
-                    thumbnail: "./my-site.png",
-                    description:"Eine selbst konzipierte und mit React.js umgesetzte Portfolio-Website, um meine Kenntnisse im Bereich Frontend-Entwicklung zu vermitteln. Der Source Code für diese Website ist auf meiner GitHub-Seite verfügbar.",
+                    thumbnail: "./my-site.gif",
+                    source:"https://github.com/architdharod/personal-website-react-ts",
+                    description:"Eine selbst konzipierte und mit React.js umgesetzte Portfolio-Website, um meine Kenntnisse im Bereich Frontend-Entwicklung zu visualisieren. Der Source Code für diese Website ist auf meiner GitHub-Seite verfügbar.",
                     skills:"TypeScript, React.js, HTML, CSS3, Vite, Figma, Docker"
                 },
                 {
                     key: 3,
                     title: "Telephone and Chat Bots",
                     thumbnail: "./bot.png",
+                    source:"",
                     description:"Entwicklung und Bereitstellung einer integrierten Lösung mit einem IVR-Telefonbeantwortungsbot und einem Chatbot, um redundante Kundendienstaufgaben zu automatisieren. Zudem habe ich eine REST-API-Schnittstelle für diese Bots entwickelt, um relevante Daten aus einer Datenbank für den Kunden abzurufen.",
                     skills:"TypeScript, Node.js, node-ari-client, Asterisk, MySQL, Docker"
                 },
                 {
                     key: 4,
                     title: "Customer Service Agent Performance Dashboard",
-                    thumbnail: "./dashboard.png",
+                    thumbnail: "./dashboard.webp",
+                    source:"",
                     description:"Entwicklung eines Dashboards mit React.js und Drittanbieter-API-Endpunkten zur Überwachung wichtiger Leistungskennzahlen von Kundenservice-Agenten. Das Dashboard half Führungskräften, datengestützte Entscheidungen zu treffen, um die Effizienz der Mitarbeiter und die Kundenzufriedenheit zu verbessern.",
                     skills:"TypeScript, React.js"
                 }
