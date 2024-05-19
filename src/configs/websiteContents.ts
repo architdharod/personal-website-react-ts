@@ -76,7 +76,7 @@ export const websiteContent: AllContent = {
     MainSection: {
       title: 'Creator of Websites & Destroyer of Bugs',
       description:
-        'Hello, I am a Robotics Engineer by education and Front-End Developer by profession (and passion!) As a developer born in India & made in Germany, I strive to harness the best of both worlds - and channel it to create interactive, creative and Fachgerecht digital experiences! ',
+        'Hello, I am a Robotics Engineer by education and Full-Stack Developer by profession (and passion!) As a developer born in India & made in Germany, I strive to harness the best of both worlds - and channel it to create interactive, creative and Fachgerecht digital experiences! ',
     },
     SkillSection: {
       title: 'Tools and Technology',
@@ -151,7 +151,7 @@ export const websiteContent: AllContent = {
     MainSection: {
       title: 'Erschaffer von Webseites & Zerstörer von Bugs',
       description:
-        'Moin, ich bin ausgebildeter Robotik-Ingenieur und beruflich (und leidenschaftlich!) Front-End Entwickler. Als in Indien geborener und in Deutschland gemachter Entwickler strebe ich danach, das Beste aus beiden Welten zu vereinen - und es zu nutzen, um interaktive, kreative und fachgerechte digitale Erlebnisse zu schaffen!',
+        'Moin, ich bin ausgebildeter Robotik-Ingenieur und beruflich (und leidenschaftlich!) Full-Stack Entwickler. Als in Indien geborener und in Deutschland gemachter Entwickler strebe ich danach, das Beste aus beiden Welten zu vereinen - und es zu nutzen, um interaktive, kreative und fachgerechte digitale Erlebnisse zu schaffen!',
     },
     SkillSection: {
       title: 'Technologien',
