@@ -8,12 +8,12 @@ const commonSkills = [
   },
   {
     key: 2,
-    name: 'React.js',
+    name: 'React',
     logo: 'https://skillicons.dev/icons?i=react',
   },
   {
     key: 3,
-    name: 'Node.js',
+    name: 'Node',
     logo: 'https://skillicons.dev/icons?i=nodejs',
   },
   {
@@ -32,19 +32,24 @@ const commonSkills = [
     logo: 'https://skillicons.dev/icons?i=docker',
   },
   {
+    key: 14,
+    name: 'neovim',
+    logo: 'https://skillicons.dev/icons?i=neovim'
+  },
+  {
     key: 7,
     name: 'MySQL',
     logo: 'https://skillicons.dev/icons?i=mysql',
   },
   {
+    key: 13,
+    name: 'PostgreSQL',
+    logo: 'https://skillicons.dev/icons?i=postgresql'
+  },
+  {
     key: 8,
     name: 'Figma',
     logo: 'https://skillicons.dev/icons?i=figma',
-  },
-  {
-    key: 9,
-    name: 'GitHub',
-    logo: 'https://skillicons.dev/icons?i=github',
   },
   {
     key: 10,

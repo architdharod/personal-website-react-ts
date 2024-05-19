@@ -10,7 +10,7 @@ import { websiteContent } from './configs/websiteContents';
 function App() {
   const [appSetting, setAppSetting] = useState<AppSettings>({
     style: 'brutalism',
-    lightMode: true,
+    lightMode: false,
     langImgSrc: 'EN',
   });
 
@@ -90,5 +90,3 @@ function App() {
 }
 
 export default App;
-
-//TODO: add eslint and whatnot for formatting!
